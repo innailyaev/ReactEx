@@ -1,5 +1,6 @@
 import './App.css';
-import Basic from "./Components/Basic/BasicOfJsx"
+import Basic from "./Components/Basic/BasicOfJsx";
+import BasicSum from "./Components/Basic/BasicOfJsx";
 
 function App() {
   return (

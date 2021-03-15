@@ -3,7 +3,7 @@ import Box2 from "./Box2";
 
 //class
 class Box1 extends react.Component { 
-    constructor(params) {
+    constructor(props) {
         super();
     }
 

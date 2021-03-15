@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: lightblue;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn1{
+    margin-left: 10px;
+}

@@ -1,7 +1,7 @@
 body {
+  display: flex;
+  flex-direction: row;
   margin: 0;
-  height: 100vh;
-  background-color: aquamarine;
   background: url("React.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
+  
   justify-content: center;
   align-items: center;
 }

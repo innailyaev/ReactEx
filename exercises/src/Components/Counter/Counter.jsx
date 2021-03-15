@@ -1,6 +1,7 @@
 import react from 'react';
 import "./counter.css"
 
+//class components
 class Counter extends react.Component {
     constructor(props) {
         super(props);
@@ -27,5 +28,27 @@ class Counter extends react.Component {
     )}
 }
 
+
+// function components
+// const Counter =()=>{
+//     const  [state,setState]=react.useState({
+//             counter:0,             
+//     })
+//  const IncrementItem = () => {
+//                 setState({ counter: state.counter + 1 });
+//     }
+        
+//  const DecrementItem = () => {
+//                 setState({ counter: state.counter - 1 });
+//     }
+
+//     return(
+//         <div className="container">
+//                 <button className="btn" onClick={IncrementItem}>Increment</button><div>{state.counter}</div>
+//                 <button className="btn btn1" onClick={DecrementItem}>Decrement</button>
+//         </div>
+
+//     ) 
+// }
 
 export default Counter;

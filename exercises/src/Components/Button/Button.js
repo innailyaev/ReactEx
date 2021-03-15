@@ -8,7 +8,7 @@ class Button extends react.Component {
     }
 
     render() {
-        return <button className="btn">{this.props.title}</button>
+        return <button className="btn" style={{fontWeight:this.props.bold}}>{this.props.title}</button>
         
     }
 }

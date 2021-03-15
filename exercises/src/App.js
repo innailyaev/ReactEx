@@ -5,7 +5,7 @@ import './App.css';
 // import Button from "./Components/Button/Button";
 // import Card from "./Components/Card/Card";
 import Counter from "./Components/Counter/Counter";
-
+import Hide from "./Components/HideAndSeek/Hide";
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <Card image="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2015/05/28/big-ben-london-england.jpg.rend.hgtvcom.1280.960.suffix/1491582155388.jpeg" label="Amsterdam" description="Amsterdam is the capital city of the Netherlands" link1="https://en.wikipedia.org/wiki/Amsterdam" link2="https://www.youtube.com/watch?v=ey"/>
       <Card image="https://www.azamara.com/sites/default/files/heros/amsterdam-netherlands.jpg" label="London" description="London is the capital city of England" link1="https://en.wikipedia.org/wiki/London" link2="https://www.youtube.com/watch?v=45ETZ1xvHS0"/> */}
       <Counter/>
+      <Hide/>
 
     </div>
   );

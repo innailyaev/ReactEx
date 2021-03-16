@@ -2,15 +2,9 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0;
-  background: url("React.png");
+  background: url("https://blog.fcamara.com.br/wp-content/uploads/2019/03/1_y6C4nSvy2Woe0m7bWEn4BA.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
   justify-content: center;
   align-items: center;
 }

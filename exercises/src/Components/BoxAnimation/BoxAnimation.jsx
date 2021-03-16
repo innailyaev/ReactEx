@@ -24,7 +24,7 @@ class BoxAnimation extends react.Component {
 
     render () {
         return (
-            <div className={this.state.className} id="box" style={{backgroundColor:"lightgreen" ,width:this.props.width, height:this.props.height, marginTop:`${this.props.margin}.px`}}>   
+            <div className={`${this.state.className} box`} style={{backgroundColor:"lightgreen" ,width:this.props.width, height:this.props.height, marginTop:`${this.props.margin}.px`}}>   
             </div>   
     )}
 }

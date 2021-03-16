@@ -6,8 +6,10 @@ import './App.css';
 // import Card from "./Components/Card/Card";
 // import Counter from "./Components/Counter/Counter";
 // import Hide from "./Components/HideAndSeek/Hide";
-import LifeCycle from "./Components/LifeCycleMethods/LifeCycle";
+// import LifeCycle from "./Components/LifeCycleMethods/LifeCycle";
 import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
+// import Spinner from "./Components/Spinner/Spinner";
+import ChangingBox from "./Components/ChangingBox/ChangingBox.jsx";
 
 function App() {
   // const data = ["hello", "world"];
@@ -26,10 +28,12 @@ function App() {
       <Card image="https://www.azamara.com/sites/default/files/heros/amsterdam-netherlands.jpg" label="London" description="London is the capital city of England" link1="https://en.wikipedia.org/wiki/London" link2="https://www.youtube.com/watch?v=45ETZ1xvHS0"/> */}
       {/* <Counter/>
       <Hide/> */}
-      <LifeCycle/>
+      {/* <LifeCycle/> */}
       <BoxAnimation width='150px' height='150px' margin={165}/>
       <BoxAnimation width='100px' height='100px' margin={55}/>
       <BoxAnimation width='50px' height='50px'/>
+      <ChangingBox/>
+      {/* <Spinner/> */}
 
     </div>
   );

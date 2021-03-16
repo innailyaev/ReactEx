@@ -6,11 +6,12 @@ class LifeCycle extends react.Component {
         super(props);
         this.state={
             favoriteColor:'blue'
-        }   
+        }
+        this.myRef = react.createRef();  
     }
 
     componentDidMount() {
-        console.log("[componentDidMount]")
+        console.log("componentDidMount")
        setTimeout(()=>{
            this.setState({favoriteColor : 'red'})
        },1000)
@@ -18,18 +19,17 @@ class LifeCycle extends react.Component {
    
     componentDidUpdate(){
         console.log("componentDidUpdate");
-        let emptyElement=document.getElementById('newState');
-        emptyElement.textContent=`The updated favorite color is: ${this.state.favoriteColor}`;
-        emptyElement.style.backgroundColor=`${this.state.favoriteColor}`;
-        emptyElement.style.fontSize='20px';
-        emptyElement.style.color='white';
+        this.myRef.current.textContent=`The updated favorite color is: ${this.state.favoriteColor}`;
+        this.myRef.current.style.backgroundColor=`${this.state.favoriteColor}`;
+        this.myRef.current.style.fontSize='20px';
+        this.myRef.current.style.color='white';
     }
            
     render(){
         return (
                 <div>
                    <h1>My favorite color is {this.state.favoriteColor}</h1>
-                   <div id="newState"></div>
+                   <div id="newState" ref={this.myRef}></div>
                 </div>
 
         )

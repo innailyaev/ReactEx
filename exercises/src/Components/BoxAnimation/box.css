@@ -1,0 +1,25 @@
+#box{
+  position: absolute;
+  top:0;
+  left:0;   
+  transform: translateX(-100%);
+
+}
+
+.slideIn{
+    animation: slide-in 1s forwards;
+}
+
+
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+.slideOut{
+    animation: slide-out 1s forwards;
+}
+
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}

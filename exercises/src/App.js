@@ -6,7 +6,8 @@ import './App.css';
 // import Card from "./Components/Card/Card";
 // import Counter from "./Components/Counter/Counter";
 // import Hide from "./Components/HideAndSeek/Hide";
-import LifeCycle from "./Components/LifeCycleMethods/LifeCycle"
+import LifeCycle from "./Components/LifeCycleMethods/LifeCycle";
+import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 
 function App() {
   // const data = ["hello", "world"];
@@ -26,7 +27,9 @@ function App() {
       {/* <Counter/>
       <Hide/> */}
       <LifeCycle/>
-
+      <BoxAnimation width='150px' height='150px' margin={165}/>
+      <BoxAnimation width='100px' height='100px' margin={55}/>
+      <BoxAnimation width='50px' height='50px'/>
 
     </div>
   );

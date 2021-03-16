@@ -1,5 +1,5 @@
 import react from 'react';
-import "./box.css"
+import "./BoxAnimation.css"
 
 //class
 class BoxAnimation extends react.Component { 

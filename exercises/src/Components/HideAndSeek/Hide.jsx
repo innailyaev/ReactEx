@@ -20,8 +20,6 @@ class Hide extends react.Component {
     }
         
         
-    
-
     render(){
         return (
                 <div className="main">

@@ -12,7 +12,7 @@ class Parent extends react.Component{
         }
     }
 
-    onChangeColor(childColor){
+    onChangeColor=(childColor)=>{
         this.setState({color:childColor})
     }
 
@@ -23,7 +23,7 @@ class Parent extends react.Component{
                 <>
                 {
                 colors.map((c)=>{
-                   return <CustomButton color={c} changeColor={this.onChangeColor.bind(this)}/>})
+                   return <CustomButton color={c} changeColor={this.onChangeColor}/>})
                 }
 
                 <h1 style={{color:'white'}}>The color selected is:<div style={{color:'black',backgroundColor:this.state.color}}>{this.state.color}</div></h1>

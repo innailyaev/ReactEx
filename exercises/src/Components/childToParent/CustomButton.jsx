@@ -10,7 +10,7 @@ class CustomButton extends react.Component{
        
     }
 
-    onChangeColor(){
+    onChangeColor=()=>{
         this.props.changeColor(this.state.childColor)
     }
 
@@ -18,7 +18,7 @@ class CustomButton extends react.Component{
 
         return (
             <div>
-                <button onClick={this.onChangeColor.bind(this)} style={{width:'100px', height:'50px',cursor:'pointer', backgroundColor:this.props.color}}>{this.props.color}</button>
+                <button onClick={this.onChangeColor} style={{width:'100px', height:'50px',cursor:'pointer', backgroundColor:this.props.color}}>{this.props.color}</button>
             </div>
         )
     }

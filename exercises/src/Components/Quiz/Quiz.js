@@ -6,7 +6,7 @@ import './Quiz.css';
 
 //class
 class Quiz extends react.Component { 
-    constructor(params) {
+    constructor(props) {
         super();
     }
 

@@ -19,7 +19,7 @@ class Spinner extends react.Component {
             const { seconds, minutes } = this.state;
     
             if (seconds > 0) {
-                this.setState(({ seconds }) => ({
+                this.setState(() => ({
                     seconds: seconds - 1
                 }))
             }
@@ -28,7 +28,7 @@ class Spinner extends react.Component {
                     clearInterval(this.myInterval);
                     this.setState({ isShow: true });
                 } else {
-                    this.setState(({ minutes }) => ({
+                    this.setState(() => ({
                         minutes: minutes - 1,
                         seconds: 59
                     }))
@@ -41,7 +41,7 @@ class Spinner extends react.Component {
         const { minutes, seconds } = this.state;
         return (
             <div>
-                { minutes === 0 && seconds === 0 ? <h1>Busted!</h1>: 
+                { minutes === 0 && seconds === 0 ? this.componentWillUnmount: 
                 <h1 className="timer">Time Remaining: {minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h1>}
                 <div className="spinner"></div>
             </div>   

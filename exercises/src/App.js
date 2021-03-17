@@ -7,9 +7,10 @@ import './App.css';
 // import Counter from "./Components/Counter/Counter";
 // import Hide from "./Components/HideAndSeek/Hide";
 // import LifeCycle from "./Components/LifeCycleMethods/LifeCycle";
-import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
+// import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
+// import ChangingBox from "./Components/ChangingBox/ChangingBox.jsx";
 // import Spinner from "./Components/Spinner/Spinner";
-import ChangingBox from "./Components/ChangingBox/ChangingBox.jsx";
+import Parent from "./Components/childToParent/Parent";
 
 function App() {
   // const data = ["hello", "world"];
@@ -29,11 +30,12 @@ function App() {
       {/* <Counter/>
       <Hide/> */}
       {/* <LifeCycle/> */}
-      <BoxAnimation width='150px' height='150px' margin={165}/>
+      {/* <BoxAnimation width='150px' height='150px' margin={165}/>
       <BoxAnimation width='100px' height='100px' margin={55}/>
       <BoxAnimation width='50px' height='50px'/>
-      <ChangingBox/>
+      <ChangingBox/> */}
       {/* <Spinner/> */}
+      <Parent/>
 
     </div>
   );

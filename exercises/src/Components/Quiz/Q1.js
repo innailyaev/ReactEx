@@ -4,7 +4,7 @@ import Q1Input from "./Q1Input";
 
 //class
 class Q1 extends react.Component { 
-    constructor(params) {
+    constructor(props) {
         super();
     }
 

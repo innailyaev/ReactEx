@@ -1,0 +1,40 @@
+.form{
+    position:absolute ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    align-items: center;
+
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+
+.continueBtn{
+    width: 80px;
+    cursor: pointer;
+}
+
+.details{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    top:0;
+    left: 0;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.btn{
+    width: 60px;
+    margin-left: 5px;
+}

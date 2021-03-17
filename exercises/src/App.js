@@ -11,6 +11,8 @@ import './App.css';
 // import ChangingBox from "./Components/ChangingBox/ChangingBox.jsx";
 // import Spinner from "./Components/Spinner/Spinner";
 import Parent from "./Components/childToParent/Parent";
+import ParentCheckbox from "./Components/Checkbox/ParentCheckbox";
+import Form from "./Components/Forms/Form";
 
 function App() {
   // const data = ["hello", "world"];
@@ -36,6 +38,8 @@ function App() {
       <ChangingBox/> */}
       {/* <Spinner/> */}
       <Parent/>
+      <ParentCheckbox/>
+      <Form/>
 
     </div>
   );

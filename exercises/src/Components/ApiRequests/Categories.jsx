@@ -12,7 +12,6 @@ export default class ChuckNorris extends react.Component{
     async componentDidMount(){
         const data=await axios.get('https://api.chucknorris.io/jokes/categories');
         this.setState({categories:data.data})
-        console.log(data.data);
     }
 
     changeHandler=async(e)=>{
@@ -26,7 +25,7 @@ export default class ChuckNorris extends react.Component{
         return (
             <>
                 <select onChange={this.changeHandler}>
-                <option value="">Select Joke category</option>
+                    <option value="" disabled>Select Joke category</option>
                     {
                         this.state.categories.map((c,index)=>{
                             return <option key={index} value={c}>{c}</option>

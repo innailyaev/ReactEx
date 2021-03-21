@@ -1,0 +1,14 @@
+.card{
+    font-family: 'Times New Roman', Times, serif;
+    width: 220px;
+    height: 320px;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-color: white;
+    box-shadow: 5px 10px lightblue;
+    color: black;
+}
+
+.card h2{
+    text-align: center;
+}

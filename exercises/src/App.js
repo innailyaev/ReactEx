@@ -13,7 +13,8 @@ import './App.css';
 // import Parent from "./Components/childToParent/Parent";
 // import ParentCheckbox from "./Components/Checkbox/ParentCheckbox";
 // import Form from "./Components/Forms/Form";
-import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
+// import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
+import DataMassaging from "./Components/DataMassaging/DataMassaging";
 
 function App() {
   // const data = ["hello", "world"];
@@ -41,7 +42,8 @@ function App() {
       {/* <Parent/>
       <ParentCheckbox/>
       <Form/> */}
-      <ChuckNorris/>
+      {/* <ChuckNorris/> */}
+      <DataMassaging/>
 
     </div>
   );

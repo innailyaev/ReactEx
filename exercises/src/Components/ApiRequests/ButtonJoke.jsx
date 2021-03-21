@@ -10,7 +10,6 @@ export default class ChuckNorris extends react.Component{
 
     sendJoke=async()=>{
         const data=await axios.get('https://api.chucknorris.io/jokes/random');
-        console.log(data.data.value);
         this.setState({joke:data.data.value});
         this.props.randomJoke(this.state.joke);
     }

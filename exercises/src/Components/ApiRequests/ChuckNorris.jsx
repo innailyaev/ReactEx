@@ -28,9 +28,6 @@ export default class ChuckNorris extends react.Component{
                 <Categories showJokeByCategory={this.showJokeByCategory}/>
                 <div>{this.state.jokeByCategory}</div>
             </div>
-        )
-        
-        
+        )   
     }
-
 }

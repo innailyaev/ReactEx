@@ -14,7 +14,9 @@ import './App.css';
 // import ParentCheckbox from "./Components/Checkbox/ParentCheckbox";
 // import Form from "./Components/Forms/Form";
 // import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
-import DataMassaging from "./Components/DataMassaging/DataMassaging";
+// import DataMassaging from "./Components/DataMassaging/DataMassaging";
+import Avatars from "./Components/Avatars/Avatars.jsx"
+
 
 function App() {
   // const data = ["hello", "world"];
@@ -43,7 +45,8 @@ function App() {
       <ParentCheckbox/>
       <Form/> */}
       {/* <ChuckNorris/> */}
-      <DataMassaging/>
+      {/* <DataMassaging/> */}
+      <Avatars/>
 
     </div>
   );

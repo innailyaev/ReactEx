@@ -1,0 +1,32 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+
+.cards{
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-color: white;
+    box-shadow: 5px 10px lightblue;
+    color: black;
+    margin-left: 50px;
+    text-align:center;
+}
+
+.cards img{
+    width: 250px;
+}
+
+.inputAvatar{
+    position: absolute;
+    top:0;
+    left: 45vw;
+    height: 30px;
+    width: 200px;
+}

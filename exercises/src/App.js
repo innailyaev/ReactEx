@@ -10,9 +10,10 @@ import './App.css';
 // import BoxAnimation from "./Components/BoxAnimation/BoxAnimation";
 // import ChangingBox from "./Components/ChangingBox/ChangingBox.jsx";
 // import Spinner from "./Components/Spinner/Spinner";
-import Parent from "./Components/childToParent/Parent";
-import ParentCheckbox from "./Components/Checkbox/ParentCheckbox";
-import Form from "./Components/Forms/Form";
+// import Parent from "./Components/childToParent/Parent";
+// import ParentCheckbox from "./Components/Checkbox/ParentCheckbox";
+// import Form from "./Components/Forms/Form";
+import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
 
 function App() {
   // const data = ["hello", "world"];
@@ -37,9 +38,10 @@ function App() {
       <BoxAnimation width='50px' height='50px'/>
       <ChangingBox/> */}
       {/* <Spinner/> */}
-      <Parent/>
+      {/* <Parent/>
       <ParentCheckbox/>
-      <Form/>
+      <Form/> */}
+      <ChuckNorris/>
 
     </div>
   );

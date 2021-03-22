@@ -1,0 +1,21 @@
+input{
+    height: 25px;
+    margin: 5px;
+    
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+.copy{
+    height: 250px;
+    width: 450px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(46, 45, 45);
+}
+
+textarea{
+    margin-bottom: 30px;
+}

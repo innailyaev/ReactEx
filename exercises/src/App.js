@@ -16,6 +16,7 @@ import './App.css';
 // import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
 // import DataMassaging from "./Components/DataMassaging/DataMassaging";
 import Focus from "./Components/Ref/Focus";
+import Copy from "./Components/Ref/Copy";
 
 function App() {
   // const data = ["hello", "world"];
@@ -47,6 +48,7 @@ function App() {
       {/* <DataMassaging/> */}
       {/* <Avatars/> */}
       <Focus/>
+      <Copy/>
 
     </div>
   );

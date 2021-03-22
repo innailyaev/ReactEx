@@ -15,8 +15,7 @@ import './App.css';
 // import Form from "./Components/Forms/Form";
 // import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
 // import DataMassaging from "./Components/DataMassaging/DataMassaging";
-import Avatars from "./Components/Avatars/Avatars.jsx"
-
+import Focus from "./Components/Ref/Focus";
 
 function App() {
   // const data = ["hello", "world"];
@@ -46,7 +45,8 @@ function App() {
       <Form/> */}
       {/* <ChuckNorris/> */}
       {/* <DataMassaging/> */}
-      <Avatars/>
+      {/* <Avatars/> */}
+      <Focus/>
 
     </div>
   );

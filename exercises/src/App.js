@@ -18,7 +18,9 @@ import './App.css';
 // import Focus from "./Components/Ref/Focus";
 // import Copy from "./Components/Ref/Copy";
 // import UseState from "./Components/Hooks/UseState";
-import Todo from "./Components/SimpleTodo/Todo";
+// import Todo from "./Components/SimpleTodo/Todo";
+import TimeConvert from "./Components/whatsTheTime/whatsTheTime";
+import MarkingDeleting from "./Components/MarkingDeleting/MarkingDeleting";
 
 function App() {
   // const data = ["hello", "world"];
@@ -54,7 +56,9 @@ function App() {
       {/* <Focus/>
       <Copy/> */}
       {/* <UseState/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <TimeConvert/>
+      <MarkingDeleting/>
 
     </div>
   );

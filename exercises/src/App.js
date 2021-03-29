@@ -17,7 +17,8 @@ import './App.css';
 // import DataMassaging from "./Components/DataMassaging/DataMassaging";
 // import Focus from "./Components/Ref/Focus";
 // import Copy from "./Components/Ref/Copy";
-import UseState from "./Components/Hooks/UseState";
+// import UseState from "./Components/Hooks/UseState";
+import Todo from "./Components/SimpleTodo/Todo";
 
 function App() {
   // const data = ["hello", "world"];
@@ -52,7 +53,8 @@ function App() {
       {/* <Avatars/> */}
       {/* <Focus/>
       <Copy/> */}
-      <UseState/>
+      {/* <UseState/> */}
+      <Todo/>
 
     </div>
   );

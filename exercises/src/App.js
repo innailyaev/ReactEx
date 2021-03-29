@@ -15,14 +15,17 @@ import './App.css';
 // import Form from "./Components/Forms/Form";
 // import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
 // import DataMassaging from "./Components/DataMassaging/DataMassaging";
-import Focus from "./Components/Ref/Focus";
-import Copy from "./Components/Ref/Copy";
+// import Focus from "./Components/Ref/Focus";
+// import Copy from "./Components/Ref/Copy";
+import UseState from "./Components/Hooks/UseState";
 
 function App() {
   // const data = ["hello", "world"];
   // const number1 = 5;
   // const number2 =6;
   // const string = 'I love React!';
+
+  
   return (
     <div className="cardsContainer" >
       {/* <Basic data={data} number1={number1} number2={number2} string={string}/>
@@ -47,8 +50,9 @@ function App() {
       {/* <ChuckNorris/> */}
       {/* <DataMassaging/> */}
       {/* <Avatars/> */}
-      <Focus/>
-      <Copy/>
+      {/* <Focus/>
+      <Copy/> */}
+      <UseState/>
 
     </div>
   );

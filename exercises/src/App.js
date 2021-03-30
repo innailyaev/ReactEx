@@ -22,7 +22,8 @@ import './App.css';
 // import TimeConvert from "./Components/whatsTheTime/whatsTheTime";
 // import MarkingDeleting from "./Components/MarkingDeleting/MarkingDeleting";
 // import SimpleFetch from "./Components/SimpleFetch/UseEffect";
-import Countries from "./Components/CountriesOfTheWorld/Countries";
+// import Countries from "./Components/CountriesOfTheWorld/Countries";
+import AlogoliaAPI from "./Components/AlogoliaAPI/AlogoliaAPI";
 
 function App() {
   // const data = ["hello", "world"];
@@ -62,7 +63,8 @@ function App() {
       {/* <TimeConvert/>
       <MarkingDeleting/> */}
       {/* <SimpleFetch/> */}
-      <Countries/>
+      {/* <Countries/> */}
+      <AlogoliaAPI/>
 
     </div>
   );

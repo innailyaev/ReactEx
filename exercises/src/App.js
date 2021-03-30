@@ -19,8 +19,9 @@ import './App.css';
 // import Copy from "./Components/Ref/Copy";
 // import UseState from "./Components/Hooks/UseState";
 // import Todo from "./Components/SimpleTodo/Todo";
-import TimeConvert from "./Components/whatsTheTime/whatsTheTime";
-import MarkingDeleting from "./Components/MarkingDeleting/MarkingDeleting";
+// import TimeConvert from "./Components/whatsTheTime/whatsTheTime";
+// import MarkingDeleting from "./Components/MarkingDeleting/MarkingDeleting";
+import SimpleFetch from "./Components/SimpleFetch/UseEffect";
 
 function App() {
   // const data = ["hello", "world"];
@@ -57,8 +58,9 @@ function App() {
       <Copy/> */}
       {/* <UseState/> */}
       {/* <Todo/> */}
-      <TimeConvert/>
-      <MarkingDeleting/>
+      {/* <TimeConvert/>
+      <MarkingDeleting/> */}
+      <SimpleFetch/>
 
     </div>
   );

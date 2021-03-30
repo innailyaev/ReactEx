@@ -7,12 +7,12 @@ const SimpleFetch = () => {
     const [director,setDirector]=useState('');
 
 useEffect(()=>{
-    async function fetchMyAPI() {
+    (async () =>{
         const response =await axios.get('https://swapi.dev/api/films/1/');
         setTitle(response.data.title);
         setDirector(response.data.director);
-    }
-    fetchMyAPI();
+    })();
+   
 },[]);
   
 

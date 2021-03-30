@@ -21,7 +21,8 @@ import './App.css';
 // import Todo from "./Components/SimpleTodo/Todo";
 // import TimeConvert from "./Components/whatsTheTime/whatsTheTime";
 // import MarkingDeleting from "./Components/MarkingDeleting/MarkingDeleting";
-import SimpleFetch from "./Components/SimpleFetch/UseEffect";
+// import SimpleFetch from "./Components/SimpleFetch/UseEffect";
+import Countries from "./Components/CountriesOfTheWorld/Countries";
 
 function App() {
   // const data = ["hello", "world"];
@@ -60,7 +61,8 @@ function App() {
       {/* <Todo/> */}
       {/* <TimeConvert/>
       <MarkingDeleting/> */}
-      <SimpleFetch/>
+      {/* <SimpleFetch/> */}
+      <Countries/>
 
     </div>
   );

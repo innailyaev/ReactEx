@@ -1,18 +1,20 @@
 .App {
   text-align: center;
-  color:rgb(255, 255, 255);
   display: flex;
   
 }
 
 .cardsContainer{
-  height: 100vh;
   width: 100vw; 
   display: flex;
+  /* background: url("https://blog.fcamara.com.br/wp-content/uploads/2019/03/1_y6C4nSvy2Woe0m7bWEn4BA.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
   flex-direction: column; 
-  align-items: center; 
-  color:white; 
+  /* align-items: center;  */
+  color:rgb(0, 0, 0); 
   font-size: 20px;
   margin-top: 50px;
+  margin-left: 30px;
  } 
 

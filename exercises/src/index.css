@@ -3,9 +3,6 @@ body {
   flex-direction: row;
   margin: 0;
   padding: 10px;
-  background: url("https://blog.fcamara.com.br/wp-content/uploads/2019/03/1_y6C4nSvy2Woe0m7bWEn4BA.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   justify-content: center;
   align-items: center;
 }

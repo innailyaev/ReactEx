@@ -15,6 +15,7 @@ import './App.css';
 // import Form from "./Components/Forms/Form";
 // import ChuckNorris from "./Components/ApiRequests/ChuckNorris";
 // import DataMassaging from "./Components/DataMassaging/DataMassaging";
+// import Avatars from "./Components/Avatars/Avatars";
 // import Focus from "./Components/Ref/Focus";
 // import Copy from "./Components/Ref/Copy";
 // import UseState from "./Components/Hooks/UseState";
@@ -23,7 +24,8 @@ import './App.css';
 // import MarkingDeleting from "./Components/MarkingDeleting/MarkingDeleting";
 // import SimpleFetch from "./Components/SimpleFetch/UseEffect";
 // import Countries from "./Components/CountriesOfTheWorld/Countries";
-import AlogoliaAPI from "./Components/AlogoliaAPI/AlogoliaAPI";
+// import AlogoliaAPI from "./Components/AlogoliaAPI/AlogoliaAPI";
+import ChuckNorrisHooks from "./Components/ChuckNorrisHooks/ChuckNorrisHooks";
 
 function App() {
   // const data = ["hello", "world"];
@@ -64,7 +66,8 @@ function App() {
       <MarkingDeleting/> */}
       {/* <SimpleFetch/> */}
       {/* <Countries/> */}
-      <AlogoliaAPI/>
+      {/* <AlogoliaAPI/> */}
+      <ChuckNorrisHooks/>
 
     </div>
   );

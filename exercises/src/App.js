@@ -25,7 +25,8 @@ import './App.css';
 // import SimpleFetch from "./Components/SimpleFetch/UseEffect";
 // import Countries from "./Components/CountriesOfTheWorld/Countries";
 // import AlogoliaAPI from "./Components/AlogoliaAPI/AlogoliaAPI";
-import ChuckNorrisHooks from "./Components/ChuckNorrisHooks/ChuckNorrisHooks";
+// import ChuckNorrisHooks from "./Components/ChuckNorrisHooks/ChuckNorrisHooks";
+import CancelRequest from "./Components/CancelRequest/CancelRequest";
 
 function App() {
   // const data = ["hello", "world"];
@@ -67,7 +68,8 @@ function App() {
       {/* <SimpleFetch/> */}
       {/* <Countries/> */}
       {/* <AlogoliaAPI/> */}
-      <ChuckNorrisHooks/>
+      {/* <ChuckNorrisHooks/> */}
+      <CancelRequest/>
 
     </div>
   );

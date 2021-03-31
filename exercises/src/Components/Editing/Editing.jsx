@@ -1,21 +1,30 @@
-import React, { useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 const Editing = () => {
 
-const [isToggle,setToggle]=useState(true);
+const [isEditToggle,setEditToggle]=useState(false);
+const [btnToggle,setBtnToggle]=useState(true);
 const inputRef=useRef();
 
+useEffect(()=>{
+    if(isEditToggle){
+        inputRef.current.focus();
+    }
+   
+},[isEditToggle])
+
+
 const clickHandler=()=>{
-    console.log(inputRef.current);
-    inputRef.current.focus();
-    setToggle(!isToggle)   
+    setEditToggle(!isEditToggle)   
+    setBtnToggle(!btnToggle);   
 }
 
 return (
     <div>
         {
-        isToggle ? <div><input type="text" ref={inputRef}/><button onClick={clickHandler}>Edit</button></div> : <div><input type="text" ref={inputRef}/><button onClick={()=>setToggle(!isToggle)}>Save</button></div>
+        isEditToggle ? <input type="text" ref={inputRef}/> : null
         }
+        <button onClick={clickHandler}>{btnToggle ? 'Edit' : 'Save'}</button>
 
     </div>
 );

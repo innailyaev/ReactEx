@@ -3,7 +3,6 @@ import axios from 'axios';
 
 
 const FetchData = () => {
-    
     const [joke,setJoke]=useState('');
     
     useEffect(()=>{
@@ -12,17 +11,13 @@ const FetchData = () => {
             setJoke(response.data.value);
             console.log('useEffect');
         };
-
         const timeoutId = setTimeout(() => {
              getData();
-            
-          }, 500);
+        }, 500);
     
-          return () => {
+        return () => {
             clearTimeout(timeoutId);
-        };
-        
-       
+        }; 
     },[]);
 
     return (
@@ -36,10 +31,12 @@ const FetchData = () => {
 const CancelRequest = () => {
 
 const [isToggleOn,setToggle]=useState(true);
+const [showData,setShowData]=useState(true);
 
 const clickHandler=()=>{
     console.log(isToggleOn);
-    setToggle(!isToggleOn);  
+    setToggle(!isToggleOn); 
+    setShowData(!showData); 
 }
 
 return (
@@ -47,7 +44,7 @@ return (
         <button onClick={clickHandler}>
             {isToggleOn ? 'Dispaly data' : 'Hide data'}
         </button>
-            {!(isToggleOn) ? <FetchData/> : <></>}
+            {!(showData) ? <FetchData/> : null}
 
     </div>
 );

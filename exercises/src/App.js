@@ -26,7 +26,8 @@ import './App.css';
 // import Countries from "./Components/CountriesOfTheWorld/Countries";
 // import AlogoliaAPI from "./Components/AlogoliaAPI/AlogoliaAPI";
 // import ChuckNorrisHooks from "./Components/ChuckNorrisHooks/ChuckNorrisHooks";
-import CancelRequest from "./Components/CancelRequest/CancelRequest";
+// import CancelRequest from "./Components/CancelRequest/CancelRequest";
+import Editing from "./Components/Editing/Editing";
 
 function App() {
   // const data = ["hello", "world"];
@@ -69,7 +70,8 @@ function App() {
       {/* <Countries/> */}
       {/* <AlogoliaAPI/> */}
       {/* <ChuckNorrisHooks/> */}
-      <CancelRequest/>
+      {/* <CancelRequest/> */}
+      <Editing/>
 
     </div>
   );

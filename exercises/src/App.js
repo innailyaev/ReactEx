@@ -27,8 +27,9 @@ import './App.css';
 // import AlogoliaAPI from "./Components/AlogoliaAPI/AlogoliaAPI";
 // import ChuckNorrisHooks from "./Components/ChuckNorrisHooks/ChuckNorrisHooks";
 // import CancelRequest from "./Components/CancelRequest/CancelRequest";
-import Editing from "./Components/Editing/Editing";
+// import Editing from "./Components/Editing/Editing";
 // import PlayPause from "./Components/playPauseVideo/PlayPause";
+import ImageToggle from "./Components/ImageToggle/ImageToggle";
 
 function App() {
   // const data = ["hello", "world"];
@@ -72,8 +73,9 @@ function App() {
       {/* <AlogoliaAPI/> */}
       {/* <ChuckNorrisHooks/> */}
       {/* <CancelRequest/> */}
-      <Editing/>
+      {/* <Editing/> */}
       {/* <PlayPause/> */}
+      <ImageToggle/>
 
     </div>
   );
